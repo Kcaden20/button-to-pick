@@ -1,0 +1,202 @@
+/* TODO: 
+- Add some sort of variety
+- Add in Imagery
+- Add in Final Section or Two
+ */
+h1, h2, h3, a {
+  font-family: monospace;
+  text-align: center;
+}
+
+.credits {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+}
+
+hr + img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+.button {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 0em 1em;
+  font-size: 1.5em;
+  font-family: monospace;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.angry {
+  background-color: black;
+  pointer-events: none !important;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.angry:hover {
+  cursor: not-allowed;
+}
+
+.button p {
+  display: inline-block;
+}
+
+.button + p {
+  display: inline-block;
+}
+
+.container {
+  clear: both;
+  position: relative;
+  display: inline-block;
+}
+
+.container .arrow {
+  width: 12px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  top: 6px;
+  right: -1px;
+}
+
+.container .arrow .outer {
+  width: 0;
+  height: 0;
+  border-right: 20px solid #000000;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container .arrow .inner {
+  width: 0;
+  height: 0;
+  border-right: 20px solid #ffffff;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+
+.container .message-body {
+  float: left;
+  height: auto;
+  border: 1px solid #CCC;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 6px 8px;
+  font-size: 1.25em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.container .message-body p {
+  margin: 0;
+}
+
+.dp-none {
+  display: none !important;
+}
+
+.dialogue-container {
+  display: inline-block;
+}
+
+.story-sect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+}
+
+#questionaire {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.question, .agreement, #smaller-button {
+  font-size: 1.25em;
+  padding: .5em
+}
+
+.question:first-of-type, .agreement:nth-of-type(2) {
+  background-color: red;
+  color: white;
+  border: 1px solid white;
+}
+
+.question:nth-of-type(2) {
+  background-color: orange;
+
+}
+
+#myButton {
+  pointer-events: all !important;
+  cursor:pointer !important
+}
+
+.question:nth-of-type(3), .agreement:first-of-type, #smaller-button{
+  background-color: green;
+  color: white;
+  border: 1px solid white;
+}
+
+.pnone {
+  pointer-events: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.center-around {
+  justify-content: space-around;
+}
+
+
+#radios {
+  border: 1px solid black;
+  padding: 1em
+}
+
+input[type="radio"]{
+  margin-bottom: 1.5em
+}
+
+label {
+  font-size: 1.25em;
+}
+
+.grey {
+  background-color: grey !important;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+
+

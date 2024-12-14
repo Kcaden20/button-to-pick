@@ -1,0 +1,445 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="A project about a well-known character within news articles">
+        <meta name="keywords" content="">
+        <meta name="author" content="Kevin Cadena">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>A Button To Pick</title>
+    </head>
+    <body>  
+        <!-- FAKE NEWS ARTICLE -->
+        <section id="part-one" class="story-sect">
+            <h1>I built a Twitter bot that entered—and won—1,000 online contests for me</h1>
+            <hr>
+            <img src="assets/fc3c03925231d965b3d2e203363e3629.webp">
+            <p>This is the story of how I wrote a Twitter bot to automatically enter contests and ended up winning an average of four contests per day, every day, for about 9 months straight.</p>
+            <p>Maybe you've actually retweeted it, maybe not, but everyone wants to know: does anyone ever win those contests? To discover the answer to that question, I wrote a Python script that logs into Twitter, searches for tweets that say something along the lines of “retweet to win!” and then retweets them. I'm not sure if anyone else has done this before, but I didn't see any evidence of other bots that were behaving like mine. I did however see evidence of real people who were manually doing the job of my bot by retweeting hundreds of contests over several hours.</p>
+            <hr>
+            <div id="read-more" class="button"><p>Read Full Story</p></div> 
+            <!-- Initial Dialogue -->
+            <div class="dialogue-container">
+                <div class="f-dialogue container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                    <p>Ow!</p>
+                    </div>
+                </div>
+                <div class="f-dialogue container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                    <p>Hey! Don't you ever think about the interfaces you click on?</p>
+                    </div>
+                </div>
+                <div class="f-dialogue container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                    <p>No?</p>
+                    </div>
+                </div>
+                <div class="f-dialogue container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                    <p>Well Let's Change That!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- INPUT FORMS -->
+        <section id="part-two" class="story-sect dp-none">
+            <div class="button angry"><p>Read Full Story</p></div> 
+            <div class="starting container">
+                <div class="arrow">
+                <div class="outer"></div>
+                <div class="inner"></div>
+                </div>
+                <div class="message-body">
+                <p>How do you feel towards me?</p>
+                </div>
+            </div>
+            <div class="dialogue-container">
+                <div class="s-dialogue container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                    <p>Hey! Click on someone your own size!</p>
+                    </div>
+                </div>
+                <div class="s-dialogue container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                    <p>Tell me here instead.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="questionaire">
+                <h2>Click one of the following:</h2>
+                <button class="question">Terrible</button>
+                <button class="question">Indifferent</button>
+                <button class="question">I Love You!</button>
+            </div>
+        </section>
+        <section id="part-three" class="story-sect dp-none">
+            <div class="button angry"><p>Read Full Story</p></div> 
+            <div class="starting container">
+                <div class="arrow">
+                <div class="outer"></div>
+                <div class="inner"></div>
+                </div>
+                <div class="message-body">
+                <p>How do you feel towards me?</p>
+                </div>
+            </div>
+            <div class="dialogue-container">
+                <div class="t-dialogue container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                    <p>Actually, never mind.</p>
+                    </div>
+                </div>
+                <div class="t-dialogue container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                    <p>Your feedback wouldn't change anything anyways.</p>
+                    </div>
+                </div>
+                <div class="t-dialogue container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                    <p>I'll just assume that you HATE me!</p>
+                    </div>
+                </div>
+                <div class="t-dialogue container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                    <p>That's OK though, I won't take it personally.</p>
+                    </div>
+                </div>
+                </div>
+                <div id="t-box">
+                    <h2>Be Honest; How do you feel about READ FULL STORY Button?</h2>
+                    <textarea rows="4" cols="50"></textarea>
+                </div>
+            </section>
+        <!-- RADIOS -->
+        <section id="part-four" class="story-sect dp-none">
+            <div class="button angry"><p>Read Full Story</p></div> 
+            <div class="starting container">
+                <div class="arrow">
+                <div class="outer"></div>
+                <div class="inner"></div>
+                </div>
+                <div class="message-body">
+                    <p>Let's start with some history. Why do I even exist?</p>
+                </div>
+            </div>
+                <!-- Add Images Here -->
+                <section id="radios">
+                    <h2>Why Does READ FULL STORY BUTTON exist?</h2>
+                    <!-- // Add Emojis -->
+                    <article class="radio-elem"><input type="radio" id="ads" name="rm-qs" value="HTML">
+                        <label for="ads">To make advertisers money!! &#129297; &#129297; &#129297;</label><br>
+                    </article>
+                    <article class="radio-elem">
+                        <input type="radio" id="outdated" name="rm-qs" value="CSS">
+                        <label for="outdated">Because of some 50 year-old designer's idea of the web! &#128116; &#128187; &#128225;</label><br>
+                    </article> 
+                    <article class="radio-elem">
+                        <input type="radio" id="love" name="rm-qs" value="JavaScript">
+                        <label for="love">We love you! &#128150;&#128150;&#128150;</label>
+                    </article>
+                </section>
+            <div class="dialogue-container">
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>Well I'll have you know!! I am a button with multitudes!!</p>
+                    </div>
+                </div>
+
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>I can do plenty of OTHER things like...</p>
+                    </div>
+                </div>
+
+
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>DEFENSE AGAINST ROBOTS!! &#129302; &#129302; &#129302;</p>
+                    </div>
+                </div>
+
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>AFFIRMATION OF USER INTENT!! &#128077; &#128077; &#128077;</p>
+                    </div>
+                </div>
+
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>and FASTER PAGE LOADS! &#128640; &#128640; &#128640;</p>
+                    </div>
+                </div>
+
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>Bet you didn't think of that huh?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- RANGE ONE -->
+        <section id="part-five" class="story-sect dp-none">
+            <div class="button angry"><p>Read Full Story</p></div> 
+            <div class="starting container">
+                <div class="arrow">
+                <div class="outer"></div>
+                <div class="inner"></div>
+                </div>
+                <div class="message-body">
+                    <p>Adjust the two below to reflect your feelings.</p>
+                </div>
+            </div>
+            <div class="dialogue-container">
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>Sorry, let me just handle that for you.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ranCont1">
+                <h2>Your level of thought for READ FULL STORY button:</h2>
+                <section class="center">
+                    <input type="range" id="bThought" name="thought" min="0" value="6" max="12" />
+                    <label for="volume"> BEFORE this tirade</label>
+                </section>
+                <section class="center">
+                    <input type="range" id="aThought" name="thought" value="6" max="12" />
+                    <label for="volume"> AFTER this tirade</label>
+                </section>
+            </div>
+        </section>
+        <!-- RANGE TWO-->
+        <section id="part-five" class="story-sect dp-none">
+            <div class="button angry"><p>Read Full Story</p></div> 
+            <div class="starting container">
+                <div class="arrow">
+                <div class="outer"></div>
+                <div class="inner"></div>
+                </div>
+                <div class="message-body">
+                    <p>It's like this right?</p>
+                </div>
+            </div>
+            <div class="dialogue-container">
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>Look, I didn't ask to exist!</p>
+                    </div>
+                </div>
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>I just do as I'm told. <br> Some human typity types a story about news or science character...</p>
+                    </div>
+                </div>
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>then someone is like “You know what we should do?”</p>
+                    </div>
+                </div>
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>"Add a READ FULL STORY button!"</p>
+                    </div>
+                </div>
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>So I go in and... </p>
+                    </div>
+                </div>
+                <div class="container dp-none">
+                    <div class="arrow">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                    </div>
+                    <div class="message-body">
+                        <p>...wait, can you click on me?</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ranCont">
+                <h2>Your level of thought for READ FULL STORY button:</h2>
+                <section class="center pnone">
+                    <input type="range" id="beforeThought" name="thought" min="0" value="6" max="12" />
+                    <label for="volume"> BEFORE this tirade</label>
+                </section>
+                <section class="center pnone">
+                    <input type="range" id="afterThought" name="thought" value="6" max="12" />
+                    <label for="volume"> AFTER this tirade</label>
+                </section>
+                <section class="center center-around">
+                    <button class="agreement grey">Yes</button>
+                    <button class="agreement grey">No</button>
+                </section>
+            </div>
+        </section>
+        <!-- ALLOWS A CLICK -->
+        <section id="part-six" class="story-sect dp-none">
+            <div id="prove-point" class="button"><p>Read Full Story</p></div>
+            <div class="dialogue-container">
+            <div class="container dp-none">
+                <div class="arrow">
+                <div class="outer"></div>
+                <div class="inner"></div>
+                </div>
+                <div class="message-body">
+                    <p>DO!</p>
+                </div>
+            </div>
+            <div class="container dp-none">
+                <div class="arrow">
+                <div class="outer"></div>
+                <div class="inner"></div>
+                </div>
+                <div class="message-body">
+                    <p>MY!</p>
+                </div>
+            </div>
+            <div class="container dp-none">
+                <div class="arrow">
+                <div class="outer"></div>
+                <div class="inner"></div>
+                </div>
+                <div class="message-body">
+                    <p>JOB!</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="part-seven" class="story-sect dp-none">
+            <div class="angry button"><p>Read Full Story</p></div>
+            <div class="starting container">
+                <div class="arrow">
+                <div class="outer"></div>
+                <div class="inner"></div>
+                </div>
+                <div class="message-body">
+                    <p>Did I make myself clear?</p>
+                </div>
+            </div>
+            <br>
+            <h2>Don't worry, you can click the button!</h2>
+            <section class="center">
+                <button id="smaller-button">Yes</button>
+                <section class="dialogue-container">
+                    <div class="container dp-none">
+                        <div class="arrow">
+                        <div class="outer"></div>
+                        <div class="inner"></div>
+                        </div>
+                        <div class="message-body">
+                            <p>Ow!</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section id="part-eight" class="story-sect dp-none">
+            <div id="myButton" class="button"><p>Read Full Story</p></div>
+            <div class="starting container">
+                <div id="changeDia" class="message-body">
+                    <p>Great to hear! Ahem! Click me to get back to your story then.</p>
+                </div>
+            </div>
+            <hr>
+            <section id="creds" class="credits dp-none">
+                <h2>A Button to Pick</h2>
+                <h3>By <a href="https://kevincadena.com/">Kevin Cadena</a></h3>
+                <a href="index.html">Tired of playing catch? You can restart here.</a>
+            </section>
+        </section>
+
+    </body>
+    <script src="https://unpkg.com/intersection-observer"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="index.js"></script>
+</html>
